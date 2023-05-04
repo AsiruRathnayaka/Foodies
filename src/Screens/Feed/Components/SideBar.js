@@ -16,7 +16,6 @@ const SideBar = ({ icon: IconComponent, label }) => {
           height: '40px',
           borderLeft: '4px solid orange', // Add a border to the left side
           paddingLeft: '20px',
-          marginBottom:'5px',
           borderRadius:'0', // Add some padding to the left side of the text
           transition: 'border-color 0.2s ease-in-out', // Add transition to border color
           borderColor: isActive ? 'hsl(35, 100%, 40%)' : 'transparent', // Set border color based on isActive state

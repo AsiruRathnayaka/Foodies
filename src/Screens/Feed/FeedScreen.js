@@ -22,7 +22,6 @@ const FeedScreen = () => {
           padding="20px"
           xs={2}
           justifyContent="space-around"
-          sx={{ background: "#F3F3F3" }}
           borderRadius="8px"
         >
           <SideBar label="Feed" icon={FeedIcon} />
